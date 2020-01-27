@@ -3,7 +3,7 @@
 	"injectionSelector": "string.quoted",
 	"patterns": [
 		{
-			"match": "(?:[^\\s]){'|\\"}\\w+\\]",
+			"match": "(?:[^\\s])['|\\"][:word:]+\\]",
 			"captures": {
 				"1": {
 					"patterns": [
